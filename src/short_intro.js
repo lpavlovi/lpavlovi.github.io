@@ -7,9 +7,7 @@ class ShortIntro extends Component {
       <div className="short-intro">
         <p>Hi, I'm Luka Pavlovic</p>
         <p>University of Waterloo</p>
-        <p>BASc in Computer Engineering</p>
-        <p>Graduating April 2018</p>
-        <p>Available a few months after graduating</p>
+        <p>ECE 2018</p>
       </div>
     )
   }

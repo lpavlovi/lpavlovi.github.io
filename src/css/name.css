@@ -1,7 +1,7 @@
 .name-container {
     position: relative;
     width: 110px;
-    margin: 110px auto 0 auto;
+    margin: 64px auto 0 auto;
     transition: transform .4s ease-in-out
 }
 .short-intro {
