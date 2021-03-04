@@ -1,0 +1,23 @@
+.name-container {
+    position: relative;
+    width: 110px;
+    margin: 64px auto 0 auto;
+    transition: transform .4s ease-in-out
+    opacity: 0;
+    animation: name_fadein ease-in-out;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    line-height: 60px;
+    animation-delay: .3s;
+    text-align: center;
+}
+.name {
+    font-size: 28px;
+    line-height: 60px;
+    color: #505050;
+}
+
+@keyframes name_fadein {
+    0% { opacity: 0 }
+    to { opacity: 1 }
+}
